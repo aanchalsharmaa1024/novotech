@@ -1,0 +1,65 @@
+form{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 400px;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgbs(0,0,0,0.5);
+    border-radius: 25px;
+    margin-right:200px;
+    margin-bottom: 300px;
+}
+form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    margin: 50px;
+}
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 75%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#submit:hover{
+    cursor:pointer;
+    background-color: rgba(255,255,255,0.1);
+    color:white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+body{
+    /* background: url(images/contactus.avif) ; */
+    background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139106.jpg?w=1060&t=st=1693157136~exp=1693157736~hmac=43c5bdf8ebd48fbfc71181bae41bfbda17c8540ae64b3b86a3c9e73a2a904311") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    
+}
